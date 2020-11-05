@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand&display=swap');
+:root{
+	--color-principal: #5F0BAF;
+	--color-boton-hover: #49006A;
+	--color-negro: #3e3e3e;
+	--color-general: #999999;
+	--color-gris: #faf9ff;
+}
+
+body{
+	font-size: 14px;
+	color: var(--color-general);
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+
+h1, h2{
+	font-family: 'fredoka one', sans-serif;
+}
+
+h3, p, a{
+	font-family: 'Quicksand';
+}
+
+#hero{
+	background-image: url("../img/bg-hero.png");
+	background-size: cover;
+	height: 100%vh;
+	color: transparent;
+	padding-top: 3%;
+}
+
+#hero h2{
+	font-size: 3.5em;
+	padding-top: 10%;
+	padding-bottom: 10px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+}
+
+#hero .info{
+	margin-left: -10%;
+
+}
+
+#hero p{
+	font-size: 1.3em;
+	color: #fff;
+	padding-bottom: 0%;	
+}
+
+
+
+.input-text {
+  box-sizing: border-box;
+	padding: 6px 8px;
+	color: #fff;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  color: #fff;
+  opacity: 50%;
+  border: 1px solid white;
+  float: left;
+  width: 80%;
+  background: #49006A;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #5F0BAF;
+  color: var(--color-gris); 
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  clear: both;
+  display: table;
+}
+
+.btn-primary {
+	text-transform: uppercase;
+	background-color: var(--color-principal);
+	padding: 1% 0 1% 0;
+	border: 4px;
+	font-weight: 200%;
+	box-shadow: 0px 0px 10px 0px rgba(247, 81, 96, 0.50);
+}
+
+.btn-primary:hover {
+	background-color: var(--color-boton-hover);
+	text-align: center;
+}
+
+#hero a{
+	font-size: 0.8em;
+	background-color: #fff;
+	color: var(--color-principal);
+	margin-top: 60px;
+}
+
+#hero h6{
+	font-size: 0.9em;
+	color: #fff;
+	padding-bottom: 10%;
+}
+
+#home-continue{
+	padding: 40px 0 0px 0;
+text-align: center;
+background-color: var(--color-principal);
+}
+
+#home-continue .info-contenido{
+	overflow: hidden;
+}
+
+#home-continue h2{
+	color: #fff;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+#home-continue p{
+	padding-bottom: 10px;
+	color: var(--color-gris);
+}
+
+.btn-secondary {
+	text-transform: uppercase;
+	background-color: var(--color-principal);
+	padding: 1% 10% 1% 10%;
+	font-weight: 200%;
+	box-shadow: #eee;
+}
+	
+.info-icon:hover{
+	box-shadow: 0 0 38px #eee;
+	trasnform: translateY(-10px);
+	transition: all 0.3s ease;
+}
+
+.section{
+	padding: 8% 0 5%;
+}
+
+.titulo{
+	font-size: 3em;
+	font-weight: 600;
+	margin-bottom: 7%;
+}
+
+#features{
+	background-color: var(--color-gris);
+}
+#features .titulo{
+	margin-bottom: 2%;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+#descarga{
+padding: 40px 0 90px 0;
+text-align: center;
+background-color: var(--color-gris);
+	
+}
+
+#descarga h2{
+	color: var(--color-principal);
+	font-size: 3em;
+	font-weight: 600;
+}
+
+#descarga p{
+	padding-top: 10px;
+	color: var(--color-general);
+}
+
+
+.descargabtn1{
+	margin-left: 70%;
+	padding-bottom: 40px;
+}
+
+.descargabtn2{
+	margin-right: 70%;
+	padding-bottom: 40px;
+}
+
+.btn-outline-dark {
+	color:#5F0BAF; 
+	text-transform: uppercase;
+	border-color: #5F0BAF;
+	padding: 6% 19%;
+	font-weight: 100%;
+	
+}
+
+.btn-outline-dark:hover{
+color: #fff;
+background-color:  #5F0BAF;
+box-shadow: #5F0BAF;
+}
+.app-carousel {
+	
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #5F0BAF;
+    border: 0 !important;
+}
+
+#phototgu{
+background-image: url("../img/tegusdenoche.png");
+padding: 150px;
+}
+#phototgu h2{
+padding-top: 35%;
+color: #FFFFFF;
+margin: 10px;
+
+}
+
+#phototgu2{
+background-image: url("../img/picacho.png");
+padding: 150px;
+}
+#phototgu2 h2{
+padding-top: 35%;
+color: #FFFFFF;
+margin: 10px;
+
+}
+
+#phototgu2 p{
+color: #fff;
+}
+#phototgu p{
+color: #fff;
+}
+
+#tabs{
+	background-color: var(--color-principal);
+	padding: 40px 0 90px 0;
+	text-align: center;
+}
+
+#tabs h2{
+	font-size: 3.5em;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+}
+
+h3{
+	font-size: 1.5em;
+	color: var(--color-principal);
+	text-transform: uppercase;
+	background-color: var(--color-gris);
+	font-weight: 100%;
+	box-shadow: #eee;
+}
+
+.fotos{
+  width: 100px; height: 100px;
+}
+
+.tabs-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 25px;
+}
+ 
+.tabs {
+  display: flex;
+}
+ 
+.tabs li:not(:last-child) {
+  margin-right: 7px;
+}
+ 
+.tabs li a {
+  display: block;
+  position: relative;
+  top: 4px;
+  padding: 10px 25px;
+  border-radius: 2px 2px 0 0;
+  background: white;
+  opacity: 0.7;
+  transition: all 0.1s ease-in-out;
+}
+ 
+.tabs li.active a,
+.tabs li a:hover {
+  opacity: 1;
+  top: 0;
+}
+ 
+.tabs-content {
+  position: relative;
+  z-index: 2;
+  padding: 25px;
+  border-radius: 0 4px 4px 4px;
+  background: white;
+}
+ 
+.tabs-panel {
+  display: none;
+}
+ 
+.tabs-panel.active {
+  display: block;
+}
+
+.btn-primary {
+text-transform: uppercase;
+background-color: var(--color-principal);
+text-align: center;
+padding: 15px 40px  ;
+border: 0;
+font-weight: 700;
+}
+
+#call{
+
+align-content: center;
+background-color: var(--color-principal);
+	padding: 0px 0 40px 0;
+}
+
+#suscribe h2{
+	color: var(--color-principal);
+	font-size: 3em;
+	font-weight: 600;
+}
+
+#call h2{
+padding-top:80px;
+text-transform: uppercase;
+color: #fff;
+
+}
+
+#call a{
+background-color: #fff;
+	color: var(--color-principal);
+	margin-top: 60px;
+
+}
